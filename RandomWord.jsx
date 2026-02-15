@@ -60,7 +60,7 @@ export default function RandomWord() {
 			<div style={{ fontSize: '3rem', marginBottom: '1rem', color: '#333' }}>{word}</div>
 			{word && word !== 'Loading...' && (
 				<a
-					href={`https://auslan.org.au/dictionary/words/${encodeURIComponent(word.toLowerCase())}-1.html`}
+					href={`https://auslan.org.au/dictionary/search/?query=${encodeURIComponent(word.toLowerCase())}&category=all`}
 					target="_blank"
 					rel="noopener noreferrer"
 					style={{ fontSize: '1rem', marginBottom: '1rem', color: '#0077cc', textDecoration: 'underline' }}
