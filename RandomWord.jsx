@@ -73,7 +73,25 @@ export default function RandomWord() {
 			fontFamily: 'Arial, sans-serif',
 			position: 'relative',
 		}}>
-			<div style={{ fontSize: '3rem', marginBottom: '1rem', color: '#333' }}>{word}</div>
+			<div
+				style={{
+					width: '100vw',
+					maxWidth: '100vw',
+					textAlign: 'center',
+					fontSize: 'clamp(2.5rem, 16vw, 12rem)',
+					fontWeight: 700,
+					marginBottom: '1.5rem',
+					color: '#222',
+					letterSpacing: '0.05em',
+					textShadow: '0 2px 8px rgba(0,0,0,0.08)',
+					overflowWrap: 'anywhere',
+					wordBreak: 'break-word',
+					lineHeight: 1.1,
+					userSelect: 'all',
+				}}
+			>
+				{word}
+			</div>
 			{words.length > 0 && (
 				<div style={{
 					position: 'absolute',
