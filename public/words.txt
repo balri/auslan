@@ -1,6 +1,6 @@
 Hello
 How are you?
-Me / I
+Me
 You
 Good
 Bad

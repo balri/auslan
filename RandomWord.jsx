@@ -58,6 +58,16 @@ export default function RandomWord() {
 			fontFamily: 'Arial, sans-serif',
 		}}>
 			<div style={{ fontSize: '3rem', marginBottom: '1rem', color: '#333' }}>{word}</div>
+			{word && word !== 'Loading...' && (
+				<a
+					href={`https://auslan.org.au/dictionary/words/${encodeURIComponent(word.toLowerCase())}-1.html`}
+					target="_blank"
+					rel="noopener noreferrer"
+					style={{ fontSize: '1rem', marginBottom: '1rem', color: '#0077cc', textDecoration: 'underline' }}
+				>
+					View in Signbank
+				</a>
+			)}
 			<div style={{ fontSize: '1.5rem', marginBottom: '2rem', color: '#666' }}>Next word in: {countdown}s</div>
 			<div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem' }}>
 				<button
