@@ -1,0 +1,66 @@
+Hello
+How are you?
+Me / I
+You
+Good
+Bad
+Tired
+Busy
+Sick
+Yes
+No
+Please
+Thank you
+Sorry
+Show
+Move
+Stay
+Help
+Again
+Don’t
+Understand
+More
+Practice
+Finish
+Start
+Now
+English
+Sign
+Slow
+Auslan
+Introduce
+Welcome
+Pleased
+Nice
+Meet
+Your
+Name
+My
+Deaf
+Hearing
+Who
+What
+Where
+When
+Why
+Which
+How
+Copy
+Forget
+Don’t Know
+Go To
+Write On
+Board
+Same
+Different
+Like
+Want
+With
+Have
+Can
+Can’t
+Ask
+Tell
+Give
+Take
+
