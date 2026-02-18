@@ -1,6 +1,6 @@
 Hello
 How are you?
-Me
+Me / I
 You
 Good
 Bad
@@ -63,4 +63,34 @@ Ask
 Tell
 Give
 Take
-
+Man
+Woman
+Non-Binary
+Boy
+Girl
+Transgender
+Both
+Teacher
+Student
+Same
+Different
+Sit
+Stand
+Sometimes
+Always
+Teach
+Teach (two hands)
+Learn
+Class
+Room
+School
+University
+TAFE
+Number
+Hundred
+Thousand
+Cents
+Dollars
+How Old?
+How Many?
+How Much?
