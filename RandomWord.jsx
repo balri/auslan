@@ -17,6 +17,7 @@ export default function RandomWord() {
 	const [word, setWord] = useState('Loading...');
 	const [countdown, setCountdown] = useState(5);
 	const [paused, setPaused] = useState(false);
+	const countdownRef = React.useRef();
 
 	// Load words on mount
 	useEffect(() => {
@@ -36,8 +37,7 @@ export default function RandomWord() {
 	// Timer for countdown and word change
 	useEffect(() => {
 		if (shuffled.length === 0 || paused) return;
-		setCountdown(5);
-		const interval = setInterval(() => {
+		countdownRef.current = setInterval(() => {
 			setCountdown(prev => {
 				if (prev === 1) {
 					let nextIndex = index + 1;
@@ -55,8 +55,13 @@ export default function RandomWord() {
 				return prev - 1;
 			});
 		}, 1000);
-		return () => clearInterval(interval);
+		return () => clearInterval(countdownRef.current);
 	}, [index, shuffled, words, paused]);
+
+	// Reset countdown to 5 only when moving to a new word (not on resume)
+	useEffect(() => {
+		setCountdown(5);
+	}, [index]);
 
 	const handlePause = () => {
 		setPaused(p => !p);
