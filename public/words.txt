@@ -94,3 +94,31 @@ Dollars
 How Old?
 How Many?
 How Much?
+Don't Have
+Zero
+One
+twoThree
+Four
+Five
+Six
+Seven
+Eight
+Nine
+Ten
+Eleven
+Twelve
+Thirteen
+Fourteen
+Fifteen
+Sixteen
+Seventeen
+Eighteen
+Ninety
+Twenty
+Thirty
+Forty
+Fifty
+Sixty
+Seventy
+Eighty
+Ninety
