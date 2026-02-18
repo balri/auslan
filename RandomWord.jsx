@@ -17,6 +17,7 @@ export default function RandomWord() {
 	const [word, setWord] = useState('Loading...');
 	const [countdown, setCountdown] = useState(5);
 	const [paused, setPaused] = useState(false);
+	const [finished, setFinished] = useState(false); // new state
 	const countdownRef = React.useRef();
 
 	// Load words on mount
@@ -31,40 +32,48 @@ export default function RandomWord() {
 				setIndex(0);
 				setWord(shuffledList[0] || '');
 				setCountdown(5);
+				setFinished(false);
 			});
 	}, []);
 
 	// Timer for countdown and word change
 	useEffect(() => {
-		if (shuffled.length === 0 || paused) return;
+		if (shuffled.length === 0 || paused || finished) return;
 		countdownRef.current = setInterval(() => {
 			setCountdown(prev => {
 				if (prev === 1) {
 					let nextIndex = index + 1;
-					let nextShuffled = shuffled;
 					if (nextIndex >= shuffled.length) {
-						// Reshuffle and start again
-						nextShuffled = shuffleArray(words);
-						nextIndex = 0;
+						setFinished(true);
+						return 0;
 					}
-					setShuffled(nextShuffled);
 					setIndex(nextIndex);
-					setWord(nextShuffled[nextIndex] || '');
+					setWord(shuffled[nextIndex] || '');
 					return 5;
 				}
 				return prev - 1;
 			});
 		}, 1000);
 		return () => clearInterval(countdownRef.current);
-	}, [index, shuffled, words, paused]);
+	}, [index, shuffled, finished, paused]);
 
 	// Reset countdown to 5 only when moving to a new word (not on resume)
 	useEffect(() => {
-		setCountdown(5);
-	}, [index]);
+		if (!finished) setCountdown(5);
+	}, [index, finished]);
 
 	const handlePause = () => {
 		setPaused(p => !p);
+	};
+
+	const handleRestart = () => {
+		const shuffledList = shuffleArray(words);
+		setShuffled(shuffledList);
+		setIndex(0);
+		setWord(shuffledList[0] || '');
+		setCountdown(5);
+		setFinished(false);
+		setPaused(false);
 	};
 
 	return (
@@ -123,7 +132,8 @@ export default function RandomWord() {
 					View in Signbank
 				</a>
 			)}
-			<div style={{ fontSize: '1.5rem', marginBottom: '2rem', color: '#666' }}>Next word in: {countdown}s</div>
+			{!finished && <div style={{ fontSize: '1.5rem', marginBottom: '2rem', color: '#666' }}>Next word in: {countdown}s</div>}
+			{finished && <div style={{ fontSize: '1.5rem', marginBottom: '2rem', color: '#666' }}>List complete!</div>}
 			<div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem' }}>
 				<button
 					onClick={handlePause}
@@ -139,10 +149,29 @@ export default function RandomWord() {
 					}}
 					onMouseOver={e => (e.currentTarget.style.background = paused ? '#888' : '#e65100')}
 					onMouseOut={e => (e.currentTarget.style.background = paused ? '#aaa' : '#ff9800')}
-					disabled={words.length === 0}
+					disabled={words.length === 0 || finished}
 				>
 					{paused ? 'Resume' : 'Pause'}
 				</button>
+				{finished && (
+					<button
+						onClick={handleRestart}
+						style={{
+							fontSize: '2rem',
+							padding: '1.5rem 3rem',
+							border: 'none',
+							borderRadius: '1rem',
+							background: '#4caf50',
+							color: 'white',
+							cursor: 'pointer',
+							transition: 'background 0.2s',
+						}}
+						onMouseOver={e => (e.currentTarget.style.background = '#388e3c')}
+						onMouseOut={e => (e.currentTarget.style.background = '#4caf50')}
+					>
+						Start Again
+					</button>
+				)}
 			</div>
 		</div>
 	);
