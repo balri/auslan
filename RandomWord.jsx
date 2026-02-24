@@ -135,24 +135,26 @@ export default function RandomWord() {
 			{!finished && <div style={{ fontSize: '1.5rem', marginBottom: '2rem', color: '#666' }}>Next word in: {countdown}s</div>}
 			{finished && <div style={{ fontSize: '1.5rem', marginBottom: '2rem', color: '#666' }}>List complete!</div>}
 			<div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem' }}>
-				<button
-					onClick={handlePause}
-					style={{
-						fontSize: '2rem',
-						padding: '1.5rem 3rem',
-						border: 'none',
-						borderRadius: '1rem',
-						background: paused ? '#aaa' : '#ff9800',
-						color: 'white',
-						cursor: 'pointer',
-						transition: 'background 0.2s',
-					}}
-					onMouseOver={e => (e.currentTarget.style.background = paused ? '#888' : '#e65100')}
-					onMouseOut={e => (e.currentTarget.style.background = paused ? '#aaa' : '#ff9800')}
-					disabled={words.length === 0 || finished}
-				>
-					{paused ? 'Resume' : 'Pause'}
-				</button>
+				{!finished && (
+					<button
+						onClick={handlePause}
+						style={{
+							fontSize: '2rem',
+							padding: '1.5rem 3rem',
+							border: 'none',
+							borderRadius: '1rem',
+							background: paused ? '#aaa' : '#ff9800',
+							color: 'white',
+							cursor: 'pointer',
+							transition: 'background 0.2s',
+						}}
+						onMouseOver={e => (e.currentTarget.style.background = paused ? '#888' : '#e65100')}
+						onMouseOut={e => (e.currentTarget.style.background = paused ? '#aaa' : '#ff9800')}
+						disabled={words.length === 0 || finished}
+					>
+						{paused ? 'Resume' : 'Pause'}
+					</button>
+				)}
 				{finished && (
 					<button
 						onClick={handleRestart}
