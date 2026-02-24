@@ -3,15 +3,26 @@ Always
 Ask
 Auslan
 Bad
+Bike
+Black
+Blue
 Board
+Boarder / Accommodation
+Boat / Ferry
 Both
 Boy
+Brown
+Bus
 Busy
 Can
 Can’t
+Car
+Caravan
 Cents
+City
 Class
 Copy
+Dark
 Deaf
 Different
 Dollars
@@ -23,10 +34,12 @@ Eighteen
 Eighty
 Eleven
 English
+Eye
 Fifteen
 Fifty
 Finish
 Five
+Flat / Apartment
 Forget
 Forty
 Four
@@ -34,11 +47,17 @@ Fourteen
 Girl
 Give
 Go To
+Gold
 Good
+Green
+Grey
 Have
 Hearing
 Hello
 Help
+Holiday
+House
+House Boat
 How
 How are you?
 How Many?
@@ -47,11 +66,16 @@ How Old?
 Hundred
 Introduce
 Learn
+Light
 Like
+Little
+Live North
+Live South
 Man
 Me / I
 Meet
 More
+Motor Bike
 Move
 My
 Name
@@ -63,9 +87,13 @@ Non-Binary
 Now
 Number
 One
+Orange
+Pink
 Please
 Pleased
 Practice
+Purple
+Red
 Room
 Same
 School
@@ -75,6 +103,7 @@ Seventy
 Show
 Sick
 Sign
+Silver
 Sit
 Six
 Sixteen
@@ -82,10 +111,12 @@ Sixty
 Slow
 Sometimes
 Sorry
+Spy
 Stand
 Start
 Stay
 Student
+Suburb
 TAFE
 Take
 Teach
@@ -98,23 +129,29 @@ Thirty
 Thousand
 Three
 Tired
+Townhouse
+Train
 Transgender
 Twelve
 Twenty
 Two
 Understand
 University
+Walk
 Want
 Welcome
 What
 When
 Where
 Which
+White
 Who
 Why
 With
 Woman
+Work
 Write On
+Yellow
 Yes
 You
 Your
