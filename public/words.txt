@@ -2,6 +2,7 @@ Accommodation
 Afternoon
 Again
 Always
+Appointment
 April
 Ask
 August
@@ -9,6 +10,7 @@ Aunt
 Auslan
 Baby
 Bad
+Basketball
 Bike
 Black
 Blue
@@ -22,32 +24,46 @@ Brown
 Bus
 Busy
 Can
+Can't
 Can’t
 Car
+Car Park
 Caravan
 Cents
+Chat
 Children
+Church
 City
 Class
+Come
 Copy
 Cousin
+Cricket
 Dark
 Daughter
 Day
 Deaf
 December
+Dentist
 Different
 Divorced
+Doctor
 Dollars
 Don’t
 Don't Have
+Don't Know
 Don’t Know
+Don't Want
+Early
+Eat
 Eight
 Eighteen
 Eighty
 Eleven
 Engaged
 English
+Excuse
+Exercise
 Eye
 Family
 Father
@@ -58,6 +74,7 @@ Fifty
 Finish
 Five
 Flat / Apartment
+For
 Forget
 Forty
 Four
@@ -82,6 +99,7 @@ Hearing
 Hello
 Help
 Holiday
+Hospital
 House
 House Boat
 How
@@ -96,17 +114,22 @@ January
 July
 June
 Last Week
+Late
 Learn
+Leave
 Light
 Like
 Little
 Live
+Look
+Looking for
 Man
 March
 Married
 May
 Me / I
 Meet
+Meeting
 Monday
 Month
 More
@@ -114,9 +137,12 @@ Morning
 Mother
 Motor Bike
 Move
+Movie
+Must
 My
 Name
 Nephew
+Never
 Next
 Next Week
 Nice
@@ -126,6 +152,8 @@ Nine
 Ninety
 No
 Non-Binary
+Not Yet
+Nothing
 November
 Now
 Number
@@ -134,8 +162,11 @@ Old
 One
 Orange
 Parents
+Party
 Past
 Pink
+Plan
+Play
 Please
 Pleased
 Practice
@@ -143,6 +174,7 @@ Pregnant
 Purple
 Red
 Remember
+Restaurant
 Room
 Same
 Saturday
@@ -151,6 +183,7 @@ September
 Seven
 Seventeen
 Seventy
+Shop
 Show
 Sick
 Sign
@@ -165,18 +198,23 @@ Slow
 Sometimes
 Son
 Sorry
+Sports
 Stand
 Start
 Stay
 Student
+Study
 Suburb
 Sunday
+Swimming
+Swing
 TAFE
 Take
 Teach
 Teacher
 Tell
 Ten
+Tennis
 Thank you
 Thirteen
 Thirty
@@ -186,6 +224,7 @@ Thursday
 Tired
 Tomorrow
 Townhouse
+Traffic
 Train
 Transgender
 Tueday
@@ -195,6 +234,8 @@ Two
 Uncle
 Understand
 University
+Visit
+Volleyball
 Walk
 Want
 Wednesday
@@ -210,6 +251,7 @@ Who
 Why
 With
 Woman
+Won't
 Work
 Write On
 Year
