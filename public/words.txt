@@ -11,6 +11,9 @@ Auslan
 Baby
 Bad
 Basketball
+Bathroom
+Bed
+Bedroom
 Bike
 Black
 Blue
@@ -19,6 +22,7 @@ Boat / Ferry
 Both
 Boy
 Boyfriend
+Bring
 Brother
 Brown
 Bus
@@ -29,16 +33,21 @@ Can’t
 Car
 Car Park
 Caravan
+Cat
 Cents
+Chair
 Chat
 Children
 Church
 City
 Class
+Clean
 Come
+Cook
 Copy
 Cousin
 Cricket
+Cupboard
 Dark
 Daughter
 Day
@@ -48,12 +57,15 @@ Dentist
 Different
 Divorced
 Doctor
+Dog
 Dollars
 Don’t
 Don't Have
 Don't Know
 Don’t Know
 Don't Want
+Door
+Drawers
 Early
 Eat
 Eight
@@ -69,11 +81,14 @@ Family
 Father
 Favourite
 February
+Feed
 Fifteen
 Fifty
 Finish
 Five
 Flat / Apartment
+Floor
+Food
 For
 Forget
 Forty
@@ -94,6 +109,7 @@ Grandmother
 Grandson
 Green
 Grey
+Hang Up Clothes
 Have
 Hearing
 Hello
@@ -110,9 +126,11 @@ How Old?
 Hundred
 Husband / Wife
 Introduce
+Iron
 January
 July
 June
+Kitchen
 Last Week
 Late
 Learn
@@ -123,6 +141,7 @@ Little
 Live
 Look
 Looking for
+Lounge
 Man
 March
 Married
@@ -138,6 +157,7 @@ Mother
 Motor Bike
 Move
 Movie
+Mow
 Must
 My
 Name
@@ -161,6 +181,7 @@ October
 Old
 One
 Orange
+Paint
 Parents
 Party
 Past
@@ -169,6 +190,7 @@ Plan
 Play
 Please
 Pleased
+Pour
 Practice
 Pregnant
 Purple
@@ -183,6 +205,8 @@ September
 Seven
 Seventeen
 Seventy
+Sew
+Shelves
 Shop
 Show
 Sick
@@ -206,8 +230,10 @@ Student
 Study
 Suburb
 Sunday
+Sweep
 Swimming
 Swing
+Table
 TAFE
 Take
 Teach
@@ -222,22 +248,27 @@ Thousand
 Three
 Thursday
 Tired
+Toilet
 Tomorrow
 Townhouse
 Traffic
 Train
 Transgender
-Tueday
+Tuesday
 Twelve
 Twenty
 Two
 Uncle
 Understand
 University
+Vacuum
 Visit
 Volleyball
 Walk
+Wall
 Want
+Wash
+Wash Clothes
 Wednesday
 Week
 Weekend
@@ -249,6 +280,7 @@ Which
 White
 Who
 Why
+Window
 With
 Woman
 Won't
